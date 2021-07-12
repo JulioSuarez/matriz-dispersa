@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/07/12 17:49:27.922,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/07/12 17:49:27.935,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/07/12 17:50:09.003,D:\github\INF220\matriz-dispersa\Main.cpp=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/07/12 17:50:13.769,D:\github\INF220\matriz-dispersa\Main.h=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/07/12 17:50:25.740,D:\github\INF220\matriz-dispersa\JCSTMatriz.cbproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
