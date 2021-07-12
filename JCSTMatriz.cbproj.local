@@ -3,8 +3,23 @@
 	<Transactions>
     <Transaction>2021/07/12 17:49:27.000.922,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
     <Transaction>2021/07/12 17:49:27.000.935,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
-    <Transaction>2021/07/12 17:50:09.000.003,D:\github\INF220\matriz-dispersa\Main.cpp=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
-    <Transaction>2021/07/12 17:50:13.000.769,D:\github\INF220\matriz-dispersa\Main.h=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>2021/07/12 17:50:25.000.740,D:\github\INF220\matriz-dispersa\JCSTMatriz.cbproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021/07/12 17:50:09.000.003,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\File1.cpp=D:\github\INF220\matriz-dispersa\Main.cpp</Transaction>
+    <Transaction>2021/07/12 17:50:13.000.769,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\github\INF220\matriz-dispersa\Main.h</Transaction>
+    <Transaction>2021/07/12 17:50:25.000.740,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\github\INF220\matriz-dispersa\JCSTMatriz.cbproj</Transaction>
+    <Transaction>2021/07/12 18:04:53.282,=D:\github\INF220\matriz-dispersa\Unit1.cpp</Transaction>
+    <Transaction>2021/07/12 18:05:07.288,D:\github\INF220\matriz-dispersa\UMemoria.h=D:\github\INF220\matriz-dispersa\Unit1.h</Transaction>
+    <Transaction>2021/07/12 18:05:07.288,D:\github\INF220\matriz-dispersa\UMemoria.cpp=D:\github\INF220\matriz-dispersa\Unit1.cpp</Transaction>
+    <Transaction>2021/07/12 18:05:12.810,=D:\github\INF220\matriz-dispersa\Unit1.cpp</Transaction>
+    <Transaction>2021/07/12 18:05:23.237,D:\github\INF220\matriz-dispersa\Funciones.h=D:\github\INF220\matriz-dispersa\Unit1.h</Transaction>
+    <Transaction>2021/07/12 18:05:23.237,D:\github\INF220\matriz-dispersa\Funciones.cpp=D:\github\INF220\matriz-dispersa\Unit1.cpp</Transaction>
+    <Transaction>2021/07/12 18:06:16.871,D:\github\INF220\matriz-dispersa\memoria\Funciones.cpp=D:\github\INF220\matriz-dispersa\Funciones.cpp</Transaction>
+    <Transaction>2021/07/12 18:06:16.871,D:\github\INF220\matriz-dispersa\memoria\Funciones.h=D:\github\INF220\matriz-dispersa\Funciones.h</Transaction>
+    <Transaction>2021/07/12 18:06:22.090,D:\github\INF220\matriz-dispersa\memoria\UMemoria.h=D:\github\INF220\matriz-dispersa\UMemoria.h</Transaction>
+    <Transaction>2021/07/12 18:06:22.090,D:\github\INF220\matriz-dispersa\memoria\UMemoria.cpp=D:\github\INF220\matriz-dispersa\UMemoria.cpp</Transaction>
+    <Transaction>2021/07/12 18:08:14.225,=D:\github\INF220\matriz-dispersa\Unit1.cpp</Transaction>
+    <Transaction>2021/07/12 18:08:23.665,D:\github\INF220\matriz-dispersa\MatrizV.h=D:\github\INF220\matriz-dispersa\Unit1.h</Transaction>
+    <Transaction>2021/07/12 18:08:23.665,D:\github\INF220\matriz-dispersa\MatrizV.cpp=D:\github\INF220\matriz-dispersa\Unit1.cpp</Transaction>
+    <Transaction>2021/07/12 18:09:26.943,D:\github\INF220\matriz-dispersa\matriz\UMatrizV.h=D:\github\INF220\matriz-dispersa\MatrizV.h</Transaction>
+    <Transaction>2021/07/12 18:09:26.943,D:\github\INF220\matriz-dispersa\matriz\UMatrizV.cpp=D:\github\INF220\matriz-dispersa\MatrizV.cpp</Transaction>
   </Transactions>
 </BorlandProject>

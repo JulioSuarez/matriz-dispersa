@@ -1,0 +1,15 @@
+#include <iostream>
+
+#include "UMemoria.h"
+
+using namespace std;
+
+ int main()
+{
+	CSMemoria* mem = new CSMemoria();
+
+	mem->mostrar();
+
+	system("pause");
+	return 0;
+}

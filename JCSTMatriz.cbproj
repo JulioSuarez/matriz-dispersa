@@ -55,6 +55,8 @@
         <Base>true</Base>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base)'!=''">
+        <IncludePath>matriz\;memoria\;$(IncludePath)</IncludePath>
+        <ILINK_LibraryPath>matriz\;memoria\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
         <Multithreaded>true</Multithreaded>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
         <_TCHARMapping>char</_TCHARMapping>
@@ -126,6 +128,21 @@
         <PCHCompile Include="Main.h">
             <BuildOrder>0</BuildOrder>
         </PCHCompile>
+        <CppCompile Include="matriz\UMatrizV.cpp">
+            <VirtualFolder>{9CDF7A44-C965-4A33-A2BF-4DAA03916EA5}</VirtualFolder>
+            <DependentOn>matriz\UMatrizV.h</DependentOn>
+            <BuildOrder>4</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="memoria\Funciones.cpp">
+            <VirtualFolder>{E8D36059-32C6-4EF9-A0B0-017061E54866}</VirtualFolder>
+            <DependentOn>memoria\Funciones.h</DependentOn>
+            <BuildOrder>3</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="memoria\UMemoria.cpp">
+            <VirtualFolder>{E8D36059-32C6-4EF9-A0B0-017061E54866}</VirtualFolder>
+            <DependentOn>memoria\UMemoria.h</DependentOn>
+            <BuildOrder>2</BuildOrder>
+        </CppCompile>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -149,6 +166,11 @@
                     <ProjectProperties Name="VerifyPackages">True</ProjectProperties>
                     <ProjectProperties Name="IndexFiles">False</ProjectProperties>
                 </ProjectProperties>
+                <Folders/>
+                <VFOLDERS>
+                    <VFOLDER ID="{9CDF7A44-C965-4A33-A2BF-4DAA03916EA5}" name="Matriz"/>
+                    <VFOLDER ID="{E8D36059-32C6-4EF9-A0B0-017061E54866}" name="Memoria"/>
+                </VFOLDERS>
             </CPlusPlusBuilder.Personality>
             <Deployment>
                 <DeployFile Condition="'$(UsingDelphiRTL)'=='true'" LocalName="$(BDS)\bin64\borlndmm.dll" Class="DependencyModule">
@@ -166,6 +188,12 @@
                 </DeployFile>
                 <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" LocalName="$(BDS)\bin64\cc64160mt.dll" Class="DependencyModule">
                     <Platform Name="Win64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName=".\Win32\Debug\JCSTMatriz.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>JCSTMatriz.exe</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -198,12 +226,6 @@
                 </DeployFile>
                 <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32160.dll" Class="DependencyModule">
                     <Platform Name="Win32">
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName=".\Win32\Debug\JCSTMatriz.exe" Configuration="Debug" Class="ProjectOutput">
-                    <Platform Name="Win32">
-                        <RemoteName>JCSTMatriz.exe</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
