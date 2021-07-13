@@ -128,9 +128,14 @@
         <PCHCompile Include="Main.h">
             <BuildOrder>0</BuildOrder>
         </PCHCompile>
-        <CppCompile Include="matriz\UMatrizV.cpp">
+        <CppCompile Include="matriz\JMatrizSM.cpp">
             <VirtualFolder>{9CDF7A44-C965-4A33-A2BF-4DAA03916EA5}</VirtualFolder>
-            <DependentOn>matriz\UMatrizV.h</DependentOn>
+            <DependentOn>matriz\JMatrizSM.h</DependentOn>
+            <BuildOrder>5</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="matriz\JMatrizV.cpp">
+            <VirtualFolder>{9CDF7A44-C965-4A33-A2BF-4DAA03916EA5}</VirtualFolder>
+            <DependentOn>matriz\JMatrizV.h</DependentOn>
             <BuildOrder>4</BuildOrder>
         </CppCompile>
         <CppCompile Include="memoria\Funciones.cpp">
