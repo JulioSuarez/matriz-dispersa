@@ -128,6 +128,11 @@
         <PCHCompile Include="Main.h">
             <BuildOrder>0</BuildOrder>
         </PCHCompile>
+        <CppCompile Include="matriz\JMatrizComprimida.cpp">
+            <VirtualFolder>{9CDF7A44-C965-4A33-A2BF-4DAA03916EA5}</VirtualFolder>
+            <DependentOn>matriz\JMatrizComprimida.h</DependentOn>
+            <BuildOrder>6</BuildOrder>
+        </CppCompile>
         <CppCompile Include="matriz\JMatrizSM.cpp">
             <VirtualFolder>{9CDF7A44-C965-4A33-A2BF-4DAA03916EA5}</VirtualFolder>
             <DependentOn>matriz\JMatrizSM.h</DependentOn>
